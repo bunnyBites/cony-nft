@@ -1,5 +1,6 @@
 type NFT = 
  service {
+   getCanisterId: () -> (principal) query;
    getImages: () -> (vec nat8) query;
    getItemName: () -> (text) query;
    getOwner: () -> (principal) query;

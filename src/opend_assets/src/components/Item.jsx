@@ -14,8 +14,6 @@ function Item(props) {
       canisterId: Principal.fromText(canisterId),
     });
 
-    console.log(NFTActor);
-
     const owner = await NFTActor.getOwner();
     const name = await NFTActor.getItemName();
     const images = await NFTActor.getImages();
@@ -35,8 +33,6 @@ function Item(props) {
       image: image,
     });
   };
-
-  console.log(nftObj);
 
   useEffect(() => {
     onLoad();
