@@ -5,7 +5,7 @@ import Footer from "./Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  const CANISTER_ID = "rkp4c-7iaaa-aaaaa-aaaca-cai";
+  const CANISTER_ID = "rrkah-fqaaa-aaaaa-aaaaq-cai";
 
   return (
     <div className="App">
